@@ -1,0 +1,12 @@
+.generate-Report-container {
+  padding: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.generate-Report__form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}

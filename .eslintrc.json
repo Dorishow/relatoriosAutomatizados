@@ -22,7 +22,7 @@
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
     "indent": ["off"],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": ["off"],
     "quotes": ["off"],
     "semi": ["error", "always"]
   },

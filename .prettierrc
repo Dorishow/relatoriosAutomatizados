@@ -10,5 +10,6 @@
         "semi": false
       }
     }
-  ]
+  ],
+  "endOfLine": "lf"
 }
