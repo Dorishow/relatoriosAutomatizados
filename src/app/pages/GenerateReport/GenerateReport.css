@@ -10,8 +10,19 @@
   gap: 10px;
   flex-direction: column;
 }
+.generate-Report__report {
+  border: 1px solid #310a317e;
+  border-radius: 5px;
+  padding: 20px;
+}
 
 .generate-Report__form__title {
   text-align: center;
   font-weight: normal;
+}
+
+.report__text {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 15px;
 }

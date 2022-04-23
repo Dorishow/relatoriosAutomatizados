@@ -35,7 +35,12 @@ export const GenerateReport = () => {
     <div className="generate-Report-container">
       <div className="generate-Report__form">
         <FormControl onChange={inputHandler}>
-          <TextField required label="Nome do aluno" name="nome" />
+          <TextField
+            color="success"
+            required
+            label="Nome do aluno"
+            name="nome"
+          />
         </FormControl>
 
         {ratingTextsN3.map((rate: ratingOption, key: number) => (
@@ -46,12 +51,12 @@ export const GenerateReport = () => {
           />
         ))}
       </div>
-      <div className="generate-Report__form">
+      <div className="generate-Report__report">
         <h2 className="generate-Report__form__title">
           {`Relatório ${form.nome}`}
         </h2>
         {report.map((text, key) => (
-          <span key={key}>
+          <span className="report__text" key={key}>
             {text} <br />
           </span>
         ))}

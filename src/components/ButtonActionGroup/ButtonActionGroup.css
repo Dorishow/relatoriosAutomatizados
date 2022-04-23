@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  border-bottom: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(233, 233, 233);
 }
 
 .generate-Report__form__option__buttonGroup {
@@ -20,4 +20,9 @@
 
 .buttonGroup__button:focus {
   text-decoration: underline;
+}
+
+.button__text {
+  font-weight: 300;
+  font-size: small;
 }

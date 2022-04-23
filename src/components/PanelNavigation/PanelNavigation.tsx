@@ -6,7 +6,7 @@ import { composePath, getPathById } from '../../routes/utils';
 export const PanelNavigation = () => {
   return (
     <Routes>
-      <Route path={getPathById('HOME')} element={<p>Funciona</p>} />
+      <Route path={getPathById('HOME')} element={<GenerateReport />} />
       <Route
         path={composePath('REPORT', 'GENERATE')}
         element={<GenerateReport />}

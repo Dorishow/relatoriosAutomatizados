@@ -8,6 +8,15 @@ export const theme = createTheme({
     secondary: {
       main: '#ED553B',
     },
+    error: {
+      main: '#ED553B',
+    },
+    warning: {
+      main: '#F6D55C',
+    },
+    success: {
+      main: '#04A777',
+    },
   },
   typography: {
     fontFamily: 'Poppins',

@@ -26,7 +26,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
           color="error"
           variant="contained"
         >
-          {props.rating.lowButtonText}
+          <span className="button__text">{props.rating.lowButtonText}</span>
         </Button>
         <Button
           className="buttonGroup__button"
@@ -39,7 +39,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
           color="warning"
           variant="contained"
         >
-          {props.rating.mediumButtonText}
+          <span className="button__text">{props.rating.mediumButtonText}</span>
         </Button>
         <Button
           className="buttonGroup__button"
@@ -52,7 +52,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
           color="success"
           variant="contained"
         >
-          {props.rating.highButtonText}
+          <span className="button__text">{props.rating.highButtonText}</span>
         </Button>
       </article>
     </section>
