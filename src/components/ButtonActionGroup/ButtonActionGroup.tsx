@@ -24,7 +24,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
             )
           }
           color="error"
-          variant="outlined"
+          variant="contained"
         >
           {props.rating.lowButtonText}
         </Button>
@@ -37,7 +37,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
             )
           }
           color="warning"
-          variant="outlined"
+          variant="contained"
         >
           {props.rating.mediumButtonText}
         </Button>
@@ -50,7 +50,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
             )
           }
           color="success"
-          variant="outlined"
+          variant="contained"
         >
           {props.rating.highButtonText}
         </Button>

@@ -19,9 +19,11 @@ export const GenerateReport = () => {
 
   const showReport = useCallback(() => {
     const report: string[] = [];
-    Object.values(form).map(
-      (value: unknown) => value !== form.nome && report.push(value as string)
-    );
+    Object.values(form).map((value: unknown) => {
+      const formated = value as string;
+      value !== form.nome &&
+        report.push(formated.replaceAll('**student**', form.nome));
+    });
     setReport(report);
   }, [form]);
 

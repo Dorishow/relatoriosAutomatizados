@@ -13,10 +13,11 @@
 }
 
 .buttonGroup__button {
+  font-weight: lighter !important;
+  box-shadow: none !important;
   width: 120px;
 }
 
 .buttonGroup__button:focus {
   text-decoration: underline;
-  font-weight: bold;
 }
