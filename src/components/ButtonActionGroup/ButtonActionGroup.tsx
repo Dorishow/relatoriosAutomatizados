@@ -22,10 +22,10 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
               getRandomByRate(props.rating.subjectOptions, performance.LOW)
             )
           }
-          color="success"
+          color="error"
           variant="outlined"
         >
-          low
+          {props.rating.lowButtonText}
         </Button>
         <Button
           onClick={() =>
@@ -34,10 +34,10 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
               getRandomByRate(props.rating.subjectOptions, performance.MEDIUM)
             )
           }
-          color="error"
+          color="warning"
           variant="outlined"
         >
-          medium
+          {props.rating.mediumButtonText}
         </Button>
         <Button
           onClick={() =>
@@ -46,10 +46,10 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
               getRandomByRate(props.rating.subjectOptions, performance.HIGH)
             )
           }
-          color="warning"
+          color="success"
           variant="outlined"
         >
-          high
+          {props.rating.highButtonText}
         </Button>
       </article>
     </section>

@@ -6,7 +6,7 @@ import './GenerateReport.css';
 import { ratingOption } from '../../../model/rating/ratingOption';
 
 export const GenerateReport = () => {
-  const [form, setForm] = useState({});
+  const [form, setForm] = useState({ nome: '' });
 
   const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [event.target.name]: event.target.value });
@@ -32,14 +32,23 @@ export const GenerateReport = () => {
         ))}
 
         <Button
-          onClick={() => console.log(form)}
+          onClick={() =>
+            console.log(
+              Object.values(form)[Object.values(form).indexOf('nome')]
+            )
+          }
           variant="outlined"
           size="large"
         >
           Consolar form
         </Button>
       </div>
-      <div className="generate-Report__form"></div>
+      <div className="generate-Report__form">
+        <h2>{'Relatório '.concat(form.nome)}</h2>
+        {Object.values(form).map((value: unknown, key: number) => (
+          <span key={key}>{value as string}</span>
+        ))}
+      </div>
     </div>
   );
 };
