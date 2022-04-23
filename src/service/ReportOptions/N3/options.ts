@@ -4,8 +4,17 @@ import { coordinationOptions } from './coordination';
 import { langOptions } from './lang';
 import { mathOptions } from './math';
 import { scienceOptions } from './science';
+import { temperOptions } from './temper';
 
 export const ratingTextsN3: ratingOption[] = [
+  {
+    subject: subject.TEMPERAMENTO,
+    lowButtonText: 'Hiperativo',
+    mediumButtonText: 'Tranquilo',
+    highButtonText: 'Afetuoso',
+    subjectOptions: temperOptions,
+  },
+
   {
     subject: subject.MATEMATICA,
     lowButtonText: 'Com dificuldade',

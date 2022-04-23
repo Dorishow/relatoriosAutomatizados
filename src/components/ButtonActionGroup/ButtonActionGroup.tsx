@@ -16,6 +16,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
       <p>{props.rating.subject}</p>
       <article className="generate-Report__form__option__buttonGroup">
         <Button
+          className="buttonGroup__button"
           onClick={() =>
             props.reportHandler(
               props.rating.subject,
@@ -28,6 +29,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
           {props.rating.lowButtonText}
         </Button>
         <Button
+          className="buttonGroup__button"
           onClick={() =>
             props.reportHandler(
               props.rating.subject,
@@ -40,6 +42,7 @@ export const ButtonActionGroup = (props: ButtonActionGroupProps) => {
           {props.rating.mediumButtonText}
         </Button>
         <Button
+          className="buttonGroup__button"
           onClick={() =>
             props.reportHandler(
               props.rating.subject,

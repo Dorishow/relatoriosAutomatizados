@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { ButtonActionGroup } from '../../../components/ButtonActionGroup/ButtonActionGroup';
-import { Button, FormControl, TextField } from '@mui/material';
+import { FormControl, TextField } from '@mui/material';
 import { ratingTextsN3 } from '../../../service/ReportOptions/N3/options';
 import './GenerateReport.css';
 import { ratingOption } from '../../../model/rating/ratingOption';
 
 export const GenerateReport = () => {
   const [form, setForm] = useState({ nome: '' });
+  const [report, setReport] = useState(['']);
 
   const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [event.target.name]: event.target.value });
@@ -15,6 +16,18 @@ export const GenerateReport = () => {
   const reportHandler = (subject: string, text: string) => {
     setForm({ ...form, [subject]: text });
   };
+
+  const showReport = useCallback(() => {
+    const report: string[] = [];
+    Object.values(form).map(
+      (value: unknown) => value !== form.nome && report.push(value as string)
+    );
+    setReport(report);
+  }, [form]);
+
+  useEffect(() => {
+    showReport();
+  }, [showReport]);
 
   return (
     <div className="generate-Report-container">
@@ -30,23 +43,15 @@ export const GenerateReport = () => {
             key={key}
           />
         ))}
-
-        <Button
-          onClick={() =>
-            console.log(
-              Object.values(form)[Object.values(form).indexOf('nome')]
-            )
-          }
-          variant="outlined"
-          size="large"
-        >
-          Consolar form
-        </Button>
       </div>
       <div className="generate-Report__form">
-        <h2>{'Relatório '.concat(form.nome)}</h2>
-        {Object.values(form).map((value: unknown, key: number) => (
-          <span key={key}>{value as string}</span>
+        <h2 className="generate-Report__form__title">
+          {`Relatório ${form.nome}`}
+        </h2>
+        {report.map((text, key) => (
+          <span key={key}>
+            {text} <br />
+          </span>
         ))}
       </div>
     </div>
