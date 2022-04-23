@@ -1,5 +1,5 @@
-import { performance } from '../../../enumerator/performance';
-import { subjectOptions } from '../../../model/rating/ratingOption';
+import { performance } from '../../../../enumerator/performance';
+import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const langOptions: subjectOptions = {
   [performance.LOW]: ['lang low 1', 'lang low 2', 'lang low 3'],

@@ -1,5 +1,5 @@
-import { performance } from '../../../enumerator/performance';
-import { subjectOptions } from '../../../model/rating/ratingOption';
+import { performance } from '../../../../enumerator/performance';
+import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const coordinationOptions: subjectOptions = {
   [performance.LOW]: ['coord low 1', 'coord low 2', 'coord low 3'],

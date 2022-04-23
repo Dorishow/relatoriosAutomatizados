@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { ButtonActionGroup } from '../../../components/ButtonActionGroup/ButtonActionGroup';
 import { FormControl, TextField } from '@mui/material';
-import { ratingTextsN3 } from '../../../service/ReportOptions/N3/options';
+import { ratingTextsN3 } from '../../../service/ReportOptions/N3';
 import './GenerateReport.css';
 import { ratingOption } from '../../../model/rating/ratingOption';
 

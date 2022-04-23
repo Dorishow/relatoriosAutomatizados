@@ -1,5 +1,5 @@
-import { performance } from '../../../enumerator/performance';
-import { subjectOptions } from '../../../model/rating/ratingOption';
+import { performance } from '../../../../enumerator/performance';
+import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const mathOptions: subjectOptions = {
   [performance.LOW]: ['math low 1', 'math low 2', 'math low 3'],

@@ -1,9 +1,9 @@
-import { performance } from '../../../enumerator/performance';
-import { subjectOptions } from '../../../model/rating/ratingOption';
+import { performance } from '../../../../enumerator/performance';
+import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const temperOptions: subjectOptions = {
   [performance.LOW]: [
-    'temper **student** low 1',
+    'temper  **student** low 1',
     'temper  **student** low 2',
     'temper  **student** low 3',
   ],

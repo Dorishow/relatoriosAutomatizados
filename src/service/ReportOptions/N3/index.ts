@@ -1,10 +1,10 @@
 import { subject } from '../../../enumerator/subject';
 import { ratingOption } from '../../../model/rating/ratingOption';
-import { coordinationOptions } from './coordination';
-import { langOptions } from './lang';
-import { mathOptions } from './math';
-import { scienceOptions } from './science';
-import { temperOptions } from './temper';
+import { coordinationOptions } from './optionTexts/coordination';
+import { langOptions } from './optionTexts/lang';
+import { mathOptions } from './optionTexts/math';
+import { scienceOptions } from './optionTexts/science';
+import { temperOptions } from './optionTexts/temper';
 
 export const ratingTextsN3: ratingOption[] = [
   {
