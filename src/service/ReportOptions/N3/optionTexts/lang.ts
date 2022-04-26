@@ -2,7 +2,19 @@ import { performance } from '../../../../enumerator/performance';
 import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const langOptions: subjectOptions = {
-  [performance.LOW]: ['lang low 1', 'lang low 2', 'lang low 3'],
-  [performance.MEDIUM]: ['lang medium 1', 'lang medium 2', 'lang medium 3'],
-  [performance.HIGH]: ['lang high 1', 'lang high 2', 'lang high 3'],
+  [performance.LOW]: [
+    'Quanto ao seu nível de linguagem, apesar de apresentar certas dificuldades, têm alcançado avanços consideráveis e aprendido bastante.',
+    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita, ainda apresenta certas dificuldades, mas seus avanços são significativos.',
+    'Em relação à sua oralidade e linguagem escrita, ainda apresenta dificuldade com algumas consoantes, mas de todo modo têm alcançado bons avanços.',
+  ],
+  [performance.MEDIUM]: [
+    'Quanto ao seu nível de linguagem, tem conseguido avançar e performar sem grandes dificuldades, concatenando vogais e consoantes para formar famílias silábicas.',
+    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita, seu desempenho tem sido proveitoso e os assuntos apresentados em sala tem sido bem aproveitados.',
+    'Em relação à sua oralidade e linguagem escrita, tem se desenvolvido sem dificuldades, realizando encontros vocálicos e construído sílabas de acordo com o ensinado.',
+  ],
+  [performance.HIGH]: [
+    'Quanto ao desenvolvimento de sua linguagem e oralidade, seu desempenho é exemplar, construíndo encontros vocálicos, famílias silábicas em letra cursiva e a escrita do nome.',
+    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita tem desempenhado com facilidade, construíndo encontros vocálicos, escrevendo o próprio nome e assosiado consoantes e vogais.',
+    'Em relação à sua oralidade e linguagem escrita tem desempenhado de modo excelente, realizado as atividades em sala de aula, associando consoantes e vogais e realizando a escrita do nome sem dificuldades.',
+  ],
 };
