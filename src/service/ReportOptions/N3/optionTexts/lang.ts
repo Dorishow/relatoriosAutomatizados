@@ -13,8 +13,8 @@ export const langOptions: subjectOptions = {
     'Em relação à sua oralidade e linguagem escrita, tem se desenvolvido sem dificuldades, realizando encontros vocálicos e construído sílabas de acordo com o ensinado.',
   ],
   [performance.HIGH]: [
-    'Quanto ao desenvolvimento de sua linguagem e oralidade, seu desempenho é exemplar, construíndo encontros vocálicos, famílias silábicas e a escrita do nome em letra cursiva.',
-    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita tem desempenhado com facilidade, construíndo encontros vocálicos, escrevendo o próprio nome e assosiado consoantes e vogais.',
-    'Em relação à sua oralidade e linguagem escrita tem desempenhado de modo excelente, realizado as atividades em sala de aula, associando consoantes e vogais e realizando a escrita do nome sem dificuldades.',
+    'Quanto ao desenvolvimento de sua linguagem escrita e oralidade, seu desempenho é exemplar, construíndo encontros vocálicos, famílias silábicas e a escrita do nome em letra cursiva, além de tirar a lição do quadro sem dificuldade.',
+    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita tem desempenhado com facilidade, construíndo encontros vocálicos, escrevendo o próprio nome em letra cursiva, associando consoantes e vogais e tirando a lição do quadro sem dificuldade.',
+    'Em relação à sua oralidade e linguagem escrita tem desempenhado de modo excelente, realizando as atividades em sala de aula, associando consoantes e vogais e realizando a escrita do nome com letra cursiva sem dificuldades.',
   ],
 };
