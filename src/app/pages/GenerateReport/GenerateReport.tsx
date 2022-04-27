@@ -1,41 +1,20 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 import { ButtonActionGroup } from '../../../components/ButtonActionGroup/ButtonActionGroup';
 import { FormControl, TextField } from '@mui/material';
 import { ratingTextsN3 } from '../../../service/ReportOptions/N3';
 import './GenerateReport.css';
 import { ratingOption } from '../../../model/rating/ratingOption';
+import { useGenerateReport } from '../../../hooks/useGenerateReport';
 
 export const GenerateReport = () => {
-  const [form, setForm] = useState({ nome: '' });
-  const [report, setReport] = useState(['']);
-
-  const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setForm({ ...form, [event.target.name]: event.target.value });
-  };
-
-  const reportHandler = (subject: string, text: string) => {
-    setForm({ ...form, [subject]: text });
-  };
-
-  const showReport = useCallback(() => {
-    const report: string[] = [];
-    Object.values(form).map((value: unknown) => {
-      const formated = value as string;
-      value !== form.nome &&
-        report.push(formated.replaceAll('**student**', form.nome));
-    });
-    setReport(report);
-  }, [form]);
-
-  useEffect(() => {
-    showReport();
-  }, [showReport]);
+  const { report, inputHandler, reportHandler, form } = useGenerateReport();
 
   return (
     <div className="generate-Report-container">
       <div className="generate-Report__form">
-        <FormControl onChange={inputHandler}>
+        <FormControl>
           <TextField
+            onChange={inputHandler}
             color="success"
             required
             label="Nome do aluno"
