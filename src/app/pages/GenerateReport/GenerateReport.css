@@ -22,7 +22,9 @@
 }
 
 .report__text {
+  display: block;
   font-weight: 300;
   text-align: justify;
-  line-height: 15px;
+  line-height: 25px;
+  margin-bottom: 10px;
 }
