@@ -2,9 +2,9 @@ import React from 'react';
 import { ButtonActionGroup } from '../../../components/ButtonActionGroup/ButtonActionGroup';
 import { FormControl, TextField } from '@mui/material';
 import { ratingTextsN3 } from '../../../service/ReportOptions/N3';
-import './GenerateReport.css';
 import { ratingOption } from '../../../model/rating/ratingOption';
 import { useGenerateReport } from '../../../hooks/useGenerateReport';
+import './GenerateReport.css';
 
 export const GenerateReport = () => {
   const { report, inputHandler, reportHandler, form } = useGenerateReport();
