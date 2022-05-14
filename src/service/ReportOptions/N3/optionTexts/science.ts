@@ -9,8 +9,8 @@ export const scienceOptions: subjectOptions = {
   ],
   [performance.MEDIUM]: [
     'Quanto ao desenvolvimento dos conceitos de natureza e sociedade, de modo geral, **student** tem alcaçado bons resultados sem maiores dificuldades, conceitos como identidade, direitos e deveres das crianças, descobrimento do Brasil, entre outros.',
-    'Com relação ao desenvolvimento dos conceitos de natureza e sociedade seu desempenho tem trabalhado conceitos como identidade, direitos e deveres das crianças, direitos da mulher, entre outros sem dificuldades.',
-    'Em relação ao desenvolvimento dos conceitos de natureza e sociedade, em aspectos gerais, trabalhado os conceitos sem dificuldades.',
+    'Com relação ao desenvolvimento dos conceitos de natureza e sociedade **student** tem trabalhado conceitos como identidade, descobrimento do Brasil, direitos e deveres das crianças, direitos da mulher, entre outros sem dificuldades.',
+    'Em relação ao desenvolvimento dos conceitos de natureza e sociedade, em aspectos gerais, **student** tem trabalhado os conceitos sem apresentar muitas dificuldades.',
   ],
   [performance.HIGH]: [
     'Quanto ao desenvolvimento dos conceitos de natureza e sociedade **student** tem ótimo desenvolvimento, compreendendo conceitos como identidade, direitos e deveres das crianças, família e escola.',

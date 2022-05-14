@@ -4,8 +4,8 @@ import { subjectOptions } from '../../../../model/rating/ratingOption';
 export const coordinationOptions: subjectOptions = {
   [performance.LOW]: [
     'Quanto à sua coordenação motora apresenta algumas dificuldades, mas tem avançado consideravelmente.',
-    'Com relação à sua coordenação motora ainda apresenta dificuldades, mas tem alcançado bons resultados.',
-    'Em relação à sua coordenação motora, apesar de apresentar dificuldade com algumas consoantes, tem alcançado bons avanços.',
+    'Com relação à sua coordenação motora ainda apresenta dificuldades, mas tem alcançado avanços consideráveis.',
+    'Em relação à sua coordenação motora, apesar de apresentar dificuldade com algumas consoantes, tem alcançado com suas habilidades.',
   ],
   [performance.MEDIUM]: [
     'Quanto à sua coordenação motora **student** tem conseguido avançar e performar sem dificuldades.',

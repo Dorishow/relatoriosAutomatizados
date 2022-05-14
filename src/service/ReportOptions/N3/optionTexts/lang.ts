@@ -3,13 +3,13 @@ import { subjectOptions } from '../../../../model/rating/ratingOption';
 
 export const langOptions: subjectOptions = {
   [performance.LOW]: [
-    'Quanto ao seu nível de linguagem, apesar de apresentar certas dificuldades, têm alcançado avanços consideráveis e aprendido bastante.',
+    'Quanto ao seu nível de linguagem, apesar de apresentar certas dificuldades, têm alcançado avanços consideráveis em sua leitura e reconhecimento das vogais e consoantes.',
     'Com relação ao desenvolvimento de sua oralidade e linguagem escrita, ainda apresenta certas dificuldades, mas seus avanços são significativos.',
-    'Em relação à sua oralidade e linguagem escrita, ainda apresenta dificuldade com algumas consoantes, mas de todo modo têm alcançado bons avanços.',
+    'Em relação à sua oralidade e linguagem escrita, ainda apresenta dificuldade com algumas consoantes, mas de todo modo têm alcançado com suas habilidades em identificar vogais e consoantes.',
   ],
   [performance.MEDIUM]: [
     'Quanto ao seu nível de linguagem, tem conseguido avançar e performar sem grandes dificuldades, concatenando vogais e consoantes para formar famílias silábicas.',
-    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita, seu desempenho tem sido proveitoso e os assuntos apresentados em sala tem sido bem aproveitados.',
+    'Com relação ao desenvolvimento de sua oralidade e linguagem escrita, seu desempenho tem sido proveitoso e a construção dos conhecimentos apresentados em sala tem sido efetiva.',
     'Em relação à sua oralidade e linguagem escrita, tem se desenvolvido sem dificuldades, realizando encontros vocálicos e construído sílabas de acordo com o ensinado.',
   ],
   [performance.HIGH]: [
