@@ -14,7 +14,7 @@ export const coordinationOptions: subjectOptions = {
   ],
   [performance.HIGH]: [
     'Quanto à sua coordenação motora seu desempenho é exemplar.',
-    'Com relação à sua coordenação motora tem desempenhado com facilidade, fazendo as atividades sem dificuldades.',
+    'Com relação à sua coordenação motora tem desempenhado com facilidade, e não apresenta resistência ou dificuldade.',
     'Em relação à sua coordenação motora seu desempenho é excelente, realizando as atividades em sala de aula de modo exemplar.',
   ],
 };
