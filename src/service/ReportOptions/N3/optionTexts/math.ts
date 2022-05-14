@@ -15,6 +15,6 @@ export const mathOptions: subjectOptions = {
   [performance.HIGH]: [
     'Seu desempenho em relação à disciplina de matemática tem se apresentado de modo extremamente satisfatório, aplicando os conceitos apresentados em sala com bastante facilidade, como sequência numérica, números vizinhos, contagem de pequenos grupos, entre outros.',
     'Seu aprendizado quanto à matemática se desenvolve de modo abrangente e proveitoso, aplicando com facilidade os conceitos apresentados em sala como sequência numérica, números vizinhos, contagem de pequenos grupos, entre outros.',
-    'Seu desenvolvimento do raciocínio lógico matemático tem se desenvolvido de modo exemplar, não apresentando resistência ou dificuldade, aproveitando os conceitos apresentados em aula como sequência numérica, números vizinhos, contagem de pequenos grupos, entre outros.',
+    'Seu desenvolvimento do raciocínio lógico matemático tem se dado de modo exemplar, não apresentando resistência ou dificuldade, aproveitando os conceitos apresentados em aula como sequência numérica, números vizinhos, contagem de pequenos grupos, entre outros.',
   ],
 };

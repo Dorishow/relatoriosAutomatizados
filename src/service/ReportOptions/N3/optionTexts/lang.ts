@@ -6,6 +6,7 @@ export const langOptions: subjectOptions = {
     'Quanto ao aprimoramento do código de linguagens, apesar de apresentar certas dificuldades, têm alcançado avanços consideráveis em sua leitura e reconhecimento das vogais e consoantes.',
     'Com relação ao aprimoramento do código de linguagens, ainda apresenta certas dificuldades, mas seus avanços são significativos.',
     'Em relação ao aprimoramento do código de linguagens, ainda apresenta dificuldade com algumas consoantes, mas de todo modo têm alcançado com suas habilidades em identificar vogais e consoantes.',
+    'Em relação ao aprimoramento do código de linguagens, apresenta resistência em construir os conceitos trabalhados em sala, isso ocorre em decorrência da quantidade de faltas.',
   ],
   [performance.MEDIUM]: [
     'Quanto ao aprimoramento do código de linguagens, tem conseguido avançar e performar sem grandes dificuldades, concatenando vogais e consoantes para formar famílias silábicas.',
