@@ -11,7 +11,7 @@ export const temperOptions: subjectOptions = {
     '**student** é uma criança adorável, de aspecto tranquilo, que se dá muito bem com os colegas em sala.',
     '**student** é uma criança tranquila, se dá bem com os colegas e demostra muito respeito em sala de aula.',
     '**student** é uma criança tranquila, se dá bem com os colegas e demostra muito respeito em sala de aula, mas possui facilidade para se dispersar e pode se distrair com facilidade.',
-    '**student** é uma criança tranquila e que se dá bem com os colegas, se comunica de modo coerente sempre respeitando os coleguinhas.',
+    '**student** é uma criança tranquila e que se dá bem com os colegas, se comunica de modo coerente sempre respeitando a todos.',
   ],
   [performance.HIGH]: [
     '**student** é uma criança muito afetuosa, gosta de brincar com os coleguinhas, os respeita e demonstra muito carinho para com os outros.',

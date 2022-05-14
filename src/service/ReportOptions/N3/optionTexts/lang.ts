@@ -13,8 +13,8 @@ export const langOptions: subjectOptions = {
     'Em relação ao aprimoramento do código de linguagens, tem se desenvolvido sem dificuldades, realizando encontros vocálicos e construído sílabas de acordo com o ensinado.',
   ],
   [performance.HIGH]: [
-    'Quanto ao aprimoramento do código de linguagens, seu desempenho é exemplar, construindo encontros vocálicos, famílias silábicas e a escrita do nome em letra cursiva, além de tirar a lição do quadro sem dificuldade.',
-    'Com relação ao aprimoramento do código de linguagens tem desempenhado com facilidade, construindo encontros vocálicos, escrevendo o próprio nome em letra cursiva, associando consoantes e vogais e tirando a lição do quadro sem dificuldade.',
-    'Em relação ao aprimoramento do código de linguagens tem desempenhado de modo excelente, realizando as atividades em sala de aula, associando consoantes e vogais e realizando a escrita do nome com letra cursiva sem dificuldades.',
+    'Quanto ao aprimoramento do código de linguagens, seu desempenho é exemplar, construindo encontros vocálicos, famílias silábicas e a escrita do nome em letra cursiva, além de tirar a lição do quadro com facilidade.',
+    'Com relação ao aprimoramento do código de linguagens tem desempenhado com facilidade, construindo encontros vocálicos, escrevendo o próprio nome em letra cursiva, associando consoantes e vogais e tirando a lição do quadro com facilidade.',
+    'Em relação ao aprimoramento do código de linguagens tem desempenhado de modo excelente, realizando as atividades em sala de aula, associando consoantes e vogais e realizando a escrita do nome com letra cursiva.',
   ],
 };
