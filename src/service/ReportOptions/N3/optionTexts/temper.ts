@@ -5,7 +5,7 @@ export const temperOptions: subjectOptions = {
   [performance.LOW]: [
     '**student** é uma criança hiper comunicativa, se mostra confortável em interagir com os outros em sala de aula.',
     '**student** é uma criança comunicativa, com facilidade para interagir com os coleguinhas, mas possui facilidade para se dispersar e pode se distrair com facilidade.',
-    '**student** possui muita facilidade em se expressar, se comunicar e brincar com os colegas, de modo que se apresentar como uma criança bastante ativa em sala de aula.',
+    '**student** possui muita facilidade em se expressar, se comunicar e brincar com os colegas, de modo que se apresenta como uma criança bastante ativa em sala de aula.',
   ],
   [performance.MEDIUM]: [
     '**student** é uma criança adorável, de aspecto tranquilo, que se dá muito bem com os colegas em sala.',
