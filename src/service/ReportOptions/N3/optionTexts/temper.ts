@@ -15,6 +15,6 @@ export const temperOptions: subjectOptions = {
   [performance.HIGH]: [
     'Tratando-se do aspecto afetivo **student** é uma criança muito afetuosa, gosta de brincar com os coleguinhas, os respeita e demonstra muito carinho para com os outros.',
     'Tratando-se do aspecto afetivo **student** é uma criança tranquila e afetuosa, interage com os coleguinhas em sala e os respeita assim como respeita a professora.',
-    'Tratando-se do aspecto afetivo **student** é uma criança adorável, apresenta aspecto tranquilo e afetuoso e interage de modo respeito com os coleguinhas e com a professora.',
+    'Tratando-se do aspecto afetivo **student** é uma criança adorável, apresenta aspecto tranquilo e afetuoso e interage de modo respeitoso com os coleguinhas e com a professora.',
   ],
 };
